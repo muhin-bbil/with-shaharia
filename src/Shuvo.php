@@ -4,16 +4,14 @@
 namespace Muhin\WithShaharia;
 
 
-class Muhin implements AlbumInterface
+class Shuvo implements AlbumInterface
 {
-    public $name = "Muhin";
 
     public function getThumbnail()
     {
         $thumbnails = array(
-            '0' => 'thumb_01',
-            '1' => 'thumb_02',
-            '2' => 'thumb_03',
+            "https://images.unsplash.com/photo-1500322969630-a26ab6eb64cc?ixlib=rb-1.2.1&w=1000&q=80",
+            "https://i.ytimg.com/vi/BgIJ45HKDpw/maxresdefault.jpg"
         );
         return $thumbnails;
     }
@@ -21,9 +19,8 @@ class Muhin implements AlbumInterface
     public function getPublishedAt()
     {
         $publishedAt = array(
-            '0' => '2019-10-10',
-            '1' => '2019-10-11',
-            '2' => '2019-10-12',
+            "4 minutes ago",
+            "5 minutes ago"
         );
         return $publishedAt;
     }
@@ -31,9 +28,8 @@ class Muhin implements AlbumInterface
     public function getDescription()
     {
         $descriptions = array(
-            '0' => 'Description one',
-            '1' => 'Description two',
-            '2' => 'Description three',
+            "Description 1",
+            "Description 2",
         );
         return $descriptions;
     }
