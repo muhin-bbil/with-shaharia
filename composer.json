@@ -1,0 +1,15 @@
+{
+    "name": "muhin/with-shaharia",
+    "authors": [
+        {
+            "name": "Muhin",
+            "email": "muhin@blubirdinteractive.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Muhin\\WithShaharia\\": "src/"
+        }
+    }
+}
