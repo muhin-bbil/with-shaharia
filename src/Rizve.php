@@ -9,7 +9,9 @@ class Rizve implements AlbumInterface
 
     public function getThumbnail()
     {
-        // TODO: Implement getThumbnail() method.
+        $thumbnail = array(
+
+        );
     }
 
     public function getPublishedAt()
