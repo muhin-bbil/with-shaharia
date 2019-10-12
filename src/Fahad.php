@@ -14,6 +14,7 @@ class Fahad implements AlbumInterface
             '1' => 'img_2',
             '2' => 'img_3'
         );
+        return $thumbnails;
     }
 
     public function getPublishedAt()
@@ -23,6 +24,7 @@ class Fahad implements AlbumInterface
             '1' => '01-01-18',
             '2' => '01-01-17'
         );
+        return $publishedAt;
     }
 
     public function getDescription()
@@ -32,5 +34,6 @@ class Fahad implements AlbumInterface
             '1' => 'lorem ipusm',
             '2' => 'lorem ipusm'
         );
+        return $description;
     }
 }
