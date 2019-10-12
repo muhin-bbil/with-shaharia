@@ -19,7 +19,7 @@ class Muhin implements AlbumInterface
 
     public function getPublishedAt()
     {
-        $published_at = array(
+        $publishedAt = array(
             '0' => '2019-10-10',
             '1' => '2019-10-11',
             '2' => '2019-10-12',
