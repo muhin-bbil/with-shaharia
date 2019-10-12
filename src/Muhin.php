@@ -3,7 +3,6 @@
 
 namespace Muhin\WithShaharia;
 
-
 class Muhin implements AlbumInterface
 {
     public $name = "Muhin";

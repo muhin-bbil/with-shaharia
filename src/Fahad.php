@@ -3,7 +3,6 @@
 
 namespace Muhin\WithShaharia;
 
-
 class Fahad implements AlbumInterface
 {
 

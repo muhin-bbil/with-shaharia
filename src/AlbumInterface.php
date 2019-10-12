@@ -3,7 +3,6 @@
 
 namespace Muhin\WithShaharia;
 
-
 interface AlbumInterface
 {
     public function getThumbnail();

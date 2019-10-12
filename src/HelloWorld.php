@@ -3,7 +3,6 @@
 
 namespace Muhin\WithShaharia;
 
-
 class HelloWorld
 {
     public function __construct()
