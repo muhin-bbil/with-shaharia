@@ -4,7 +4,34 @@
 namespace Muhin\WithShaharia;
 
 
-class Muhin
+class Muhin implements AlbumInterface
 {
     public $name = "Muhin";
+
+    public function getThumbnail()
+    {
+        $thumbnails = array(
+            '0' => 'thumb_01',
+            '1' => 'thumb_02',
+            '2' => 'thumb_03',
+        );
+    }
+
+    public function getPublishedAt()
+    {
+        $published_at = array(
+            '0' => '2019-10-10',
+            '1' => '2019-10-11',
+            '2' => '2019-10-12',
+        );
+    }
+
+    public function getDescription()
+    {
+        $descriptions = array(
+            '0' => 'Description one',
+            '1' => 'Description two',
+            '2' => 'Description three',
+        );
+    }
 }
