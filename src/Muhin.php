@@ -15,6 +15,7 @@ class Muhin implements AlbumInterface
             '1' => 'thumb_02',
             '2' => 'thumb_03',
         );
+        return $thumbnails;
     }
 
     public function getPublishedAt()
@@ -24,6 +25,7 @@ class Muhin implements AlbumInterface
             '1' => '2019-10-11',
             '2' => '2019-10-12',
         );
+        return $publishedAt;
     }
 
     public function getDescription()
@@ -33,5 +35,6 @@ class Muhin implements AlbumInterface
             '1' => 'Description two',
             '2' => 'Description three',
         );
+        return $descriptions;
     }
 }
